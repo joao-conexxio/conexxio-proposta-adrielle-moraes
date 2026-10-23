@@ -1,0 +1,244 @@
+{
+  "slug": "adrielle-moraes",
+  "negocio": {
+    "nome": "Clínica AM · Dra. Adrielle Moraes",
+    "logo": "brand/logo.png",
+    "whatsapp": "5531983851898",
+    "unidades": [
+      {
+        "bairro": "Santo Agostinho · BH",
+        "endereco": "Edifício Aimorés, R. dos Aimorés, 3075, sala 301 – Santo Agostinho, Belo Horizonte – MG, 30140-073",
+        "telefone": "(31) 3245-1512",
+        "horario": "Com hora marcada, pelo WhatsApp"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#263068",
+    "brand2": "#1B2250",
+    "ink": "#171B33",
+    "bg": "#FAF7F2",
+    "pulse": "#C9A66B",
+    "radius": "2px",
+    "registro": "editorial",
+    "fontDisplay": "Bodoni Moda",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Métodos", "href": "#metodos" },
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Capilar", "href": "#como-funciona" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Santo Agostinho · BH",
+        "h1": "Rosto e fios, com método",
+        "lead": "Harmonização facial e tratamento da queda capilar em protocolos montados para cada paciente, na clínica da Dra. Adrielle Moraes.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Conhecer os métodos",
+        "ctaSecundarioHref": "#metodos",
+        "selo": "4,8 no Google · 155 avaliações · AM · ",
+        "cardTitulo": "Fale com a recepção",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Queda capilar",
+          "Alopecia androgenética",
+          "Toxina botulínica",
+          "Ácido hialurônico",
+          "Lábios",
+          "Rinomodelação",
+          "Olheiras",
+          "Bioestimuladores"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que chega antes da primeira consulta",
+        "itens": [
+          { "valor": "+10", "rotulo": "anos de Dra. Adrielle na estética" },
+          { "valor": "4,8", "rotulo": "de nota no Google" },
+          { "valor": "155", "rotulo": "avaliações de pacientes", "contar": 155 }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "Da clínica ao palco do CMTC",
+        "citacao": "A genética indica predisposição, mas o tratamento correto define os resultados.",
+        "autor": "Clínica AM",
+        "texto": [
+          "A Dra. Adrielle começou na harmonização facial e, ao atender a primeira paciente com queda de cabelo, encontrou a área que hoje divide a clínica ao meio: o rosto de um lado, os fios do outro.",
+          "Em 2025 ela subiu ao palco do Congresso Multidisciplinar de Terapia Capilar para falar dessa prática. Na clínica, o princípio é o mesmo que ela leva às alunas: diagnóstico antes do protocolo, e acompanhamento até o resultado aparecer no espelho."
+        ],
+        "imagem": "midia/dra-cmtc.jpg",
+        "imagemAlt": "Dra. Adrielle Moraes de blazer claro diante do painel do CMTC, Congresso Multidisciplinar de Terapia Capilar"
+      }
+    },
+    { "custom": "blocos/metodos.html" },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Os tratamentos",
+        "lead": "O que a clínica faz no rosto, na pele e no couro cabeludo. A avaliação define o que entra no seu plano e em que ordem.",
+        "itens": [
+          {
+            "nome": "Tratamento da queda capilar",
+            "descricao": "Para queda intensa, afinamento e falhas. O protocolo parte do estado do couro cabeludo e trata inflamação e dermatite junto com os fios.",
+            "icone": "microscopio"
+          },
+          {
+            "nome": "Alopecia androgenética",
+            "descricao": "A calvície de padrão masculino e feminino tem controle quando tratada cedo: o objetivo é estabilizar o quadro e preservar a densidade ao longo dos anos.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Toxina botulínica full face",
+            "descricao": "Testa, glabela e olhos tratados em conjunto, para suavizar as linhas de expressão sem tirar o movimento do rosto.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento com ácido hialurônico",
+            "descricao": "Reestruturação de malar, bigode chinês e queixo em pontos escolhidos, buscando equilíbrio e traços naturais.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Lábios",
+            "descricao": "Contorno, volume e hidratação com ácido hialurônico, respeitando a proporção da boca que você já tem.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Rinomodelação",
+            "descricao": "Ajuste do perfil do nariz com preenchedor, sem cirurgia.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Olheiras",
+            "descricao": "Tratamento da região dos olhos para suavizar a sombra e o aspecto cansado.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Bioestimuladores e protocolos de pele",
+            "descricao": "Estímulo de colágeno para linhas finas, como o código de barras acima da boca, e protocolos para cicatrizes e textura.",
+            "icone": "pele"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como é um tratamento capilar aqui",
+        "lead": "Cabelo responde no tempo dele. Por isso o tratamento é conduzido em etapas, com a clínica acompanhando a evolução do começo ao fim.",
+        "itens": [
+          {
+            "titulo": "Conversa e diagnóstico",
+            "texto": "Você conta a história da queda e a Dra. avalia o couro cabeludo para entender a causa antes de indicar qualquer coisa.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Protocolo do seu caso",
+            "texto": "Com o diagnóstico, a clínica monta o plano: o que é feito nas sessões, o que entra na rotina de casa e em que ritmo.",
+            "icone": "check"
+          },
+          {
+            "titulo": "Sessões na clínica",
+            "texto": "Os procedimentos acontecem na Clínica AM, no Santo Agostinho, com hora marcada.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Acompanhamento da evolução",
+            "texto": "A cada etapa a clínica confere a resposta dos fios e ajusta o protocolo. O tratamento segue até estabilizar o quadro.",
+            "icone": "estrela"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas de quem vai pela primeira vez",
+        "itens": [
+          {
+            "p": "Queda de cabelo tem tratamento?",
+            "r": "Na maioria dos casos, sim. O primeiro passo é descobrir a causa, que pode ser inflamação do couro cabeludo, deficiência nutricional, estresse ou genética. O protocolo depende disso."
+          },
+          {
+            "p": "Em quanto tempo vejo resultado nos fios?",
+            "r": "Varia com a causa e com o tempo de queda. O cabelo cresce devagar, por isso o tratamento é acompanhado em etapas e a evolução é conferida ao longo do caminho."
+          },
+          {
+            "p": "A clínica atende homens?",
+            "r": "Sim. A calvície masculina é um dos casos mais comuns no tratamento capilar da clínica, assim como a queda e o afinamento em mulheres."
+          },
+          {
+            "p": "Vou ficar com cara de quem fez harmonização?",
+            "r": "Não é o que se busca aqui. O planejamento parte da sua estrutura e das suas proporções, com foco em equilíbrio e naturalidade."
+          },
+          {
+            "p": "Preciso já saber o que quero fazer?",
+            "r": "Não. Na avaliação você conta o que te incomoda e sai com a indicação do que tratar, em que ordem, e do que não precisa ser feito."
+          },
+          {
+            "p": "Como eu agendo?",
+            "r": "Pelo WhatsApp da clínica ou pelo telefone (31) 3245-1512. A recepção encontra o melhor horário para a sua avaliação."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Santo Agostinho, no Edifício Aimorés",
+        "imagem": "midia/corredor.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Conte pelo WhatsApp o que te incomoda, no rosto ou nos fios. A recepção marca a sua consulta com a Dra. Adrielle.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "links": [
+          { "texto": "Métodos", "href": "#metodos" },
+          { "texto": "Tratamentos", "href": "#tratamentos" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ],
+        "aviso": "Clínica AM · Dra. Adrielle Moraes · Tricologia e Harmonização Facial. Resultados variam de paciente para paciente; a indicação de cada procedimento é feita em consulta."
+      }
+    }
+  ]
+}

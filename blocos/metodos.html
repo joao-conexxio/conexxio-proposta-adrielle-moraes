@@ -1,0 +1,86 @@
+<section class="blk-metodos" id="metodos">
+  <div class="wrap">
+    <div class="blk-metodos__cab" data-reveal>
+      <p class="blk-metodos__eyebrow">Os dois métodos da casa</p>
+      <h2 class="blk-metodos__titulo">Um para o rosto, um para os fios</h2>
+      <p class="blk-metodos__lead">Na Clínica AM, harmonização e tricologia não são cardápio avulso. Cada frente tem um protocolo com nome próprio, montado paciente a paciente e conduzido em etapas.</p>
+    </div>
+    <div class="blk-metodos__par">
+      <article class="blk-metodos__card" data-reveal style="--d:0ms">
+        <span class="blk-metodos__ico"><!--icone:microscopio--></span>
+        <p class="blk-metodos__sigla">AM</p>
+        <h3>Full Hair</h3>
+        <p class="blk-metodos__para">Queda, afinamento, falhas e calvície, em homens e mulheres.</p>
+        <ul>
+          <li>Começa pelo diagnóstico do couro cabeludo, não pelo produto</li>
+          <li>Trata a causa: inflamação, dermatite seborreica, alopecia androgenética</li>
+          <li>Protocolo individual, com acompanhamento contínuo da evolução dos fios</li>
+        </ul>
+      </article>
+      <article class="blk-metodos__card" data-reveal style="--d:140ms">
+        <span class="blk-metodos__ico"><!--icone:rosto--></span>
+        <p class="blk-metodos__sigla">AM</p>
+        <h3>Face Method</h3>
+        <p class="blk-metodos__para">Reestruturação do rosto em sessões, buscando equilíbrio e naturalidade.</p>
+        <ul>
+          <li>Ácido hialurônico em pontos estratégicos: malar, bigode chinês, queixo</li>
+          <li>Toxina botulínica full face para suavizar as linhas de expressão</li>
+          <li>Protocolo de pele para cicatrizes e textura, porque a qualidade da pele faz parte do resultado</li>
+        </ul>
+      </article>
+    </div>
+    <p class="blk-metodos__fim" data-reveal>Não sabe qual dos dois é o seu caso? <a href="#contato">Comece pela avaliação</a>.</p>
+  </div>
+</section>
+
+<style>
+.blk-metodos{padding-block:var(--sp-section)}
+.blk-metodos__cab{max-width:42rem;margin-bottom:var(--sp-5)}
+.blk-metodos__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-metodos__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-metodos__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-metodos__par{display:grid;gap:var(--sp-3)}
+.blk-metodos__card{
+  position:relative;overflow:hidden;padding:var(--sp-5) var(--sp-4) var(--sp-4);
+  border-radius:var(--radius);
+  background:color-mix(in srgb,var(--pulse) 10%,var(--bg));
+  border:1px solid color-mix(in srgb,var(--pulse) 45%,transparent);
+}
+.blk-metodos__card:last-child{background:var(--brand);border-color:var(--brand)}
+.blk-metodos__ico{display:inline-flex;width:2.6rem;height:2.6rem;color:var(--brand)}
+.blk-metodos__ico svg{width:100%;height:100%}
+.blk-metodos__card:last-child .blk-metodos__ico{color:var(--pulse)}
+.blk-metodos__sigla{
+  position:absolute;top:-.12em;right:.1em;margin:0;pointer-events:none;
+  font-family:var(--f-display);font-size:clamp(7rem,22vw,12rem);line-height:1;
+  color:color-mix(in srgb,var(--pulse) 26%,transparent);
+}
+.blk-metodos__card h3{
+  margin:var(--sp-2) 0 0;font-family:var(--f-display);font-weight:500;
+  font-size:clamp(2rem,5vw,2.8rem);line-height:1.05;color:var(--ink);
+}
+.blk-metodos__card:last-child h3{color:var(--bg)}
+.blk-metodos__para{margin:var(--sp-2) 0 0;font-size:1.05rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+.blk-metodos__card:last-child .blk-metodos__para{color:color-mix(in srgb,var(--bg) 88%,transparent)}
+.blk-metodos__card ul{list-style:none;margin:var(--sp-3) 0 0;padding:0;display:grid;gap:var(--sp-2)}
+.blk-metodos__card li{
+  position:relative;padding-left:1.4rem;font-size:.95rem;line-height:1.55;
+  color:color-mix(in srgb,var(--ink) 74%,transparent);
+}
+.blk-metodos__card li::before{
+  content:"";position:absolute;left:0;top:.62em;width:.7rem;height:1px;background:var(--pulse);
+}
+.blk-metodos__card:last-child li{color:color-mix(in srgb,var(--bg) 82%,transparent)}
+.blk-metodos__fim{margin:var(--sp-4) 0 0;font-size:1.05rem;color:color-mix(in srgb,var(--ink) 80%,transparent)}
+.blk-metodos__fim a{color:var(--brand);font-weight:600;text-underline-offset:.2em}
+@media (min-width:56rem){
+  .blk-metodos__par{grid-template-columns:repeat(2,1fr);gap:var(--sp-4)}
+  .blk-metodos__card{padding:var(--sp-6,4rem) var(--sp-5) var(--sp-5)}
+}
+</style>
